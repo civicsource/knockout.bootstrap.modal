@@ -1,26 +1,17 @@
-#Knockout Bootstrap Modal Binding
+# Knockout Bootstrap Modal Binding
 
 > A simple knockout binding that wraps Bootstrap's modal.
 
-##Install with [Bower](http://bower.io/)
+## Installation
 
 ```
-bower install knockout-bootstrap-modal
+npm install knockout.bootstrap.modal
 ```
 
-Then add `knockout.bootstrap.modal.js` to your project. If you are using AMD, also be sure to alias in your requirejs config `modal.js` from Bootstrap as `bootstrap.modal.js`:
+Then add `knockout.bootstrap.modal.js` to your project.
 
-```js
-requirejs.config({
-    paths: {
-        'bootstrap.modal': 'bower_components/bootstrap/js/modal'
-    }
-});
-```
 
-##How to Use
-
-Include the script on your page (either via a normal script tag or via an AMD loader). Then bind it to an element:
+## Usage
 
 ```html
 <div role="dialog" aria-hidden="true" class="modal fade" data-bind="modal: { show: isPopupOpen }">

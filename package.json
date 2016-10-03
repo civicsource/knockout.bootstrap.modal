@@ -1,0 +1,36 @@
+{
+  "name": "knockout.bootstrap.modal",
+  "version": "2.0.0",
+  "description": "Simple knockout binding which wraps Bootstrap's modal.",
+  "main": "knockout.bootstrap.modal.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civicsource/knockout.bootstrap.modal.git"
+  },
+  "keywords": [
+    "knockout",
+    "bootstrap",
+    "modal",
+    "dialog"
+  ],
+  "author": "CivicSource",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civicsource/knockout.bootstrap.modal/issues"
+  },
+  "homepage": "https://github.com/civicsource/knockout.bootstrap.modal#readme",
+  "peerDependencies": {
+    "knockout": "3.x"
+  },
+  "dependencies": {
+    "jquery": ">=1.10",
+    "bootstrap": "3.x"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-civicsource": "^1.1.1"
+  }
+}
